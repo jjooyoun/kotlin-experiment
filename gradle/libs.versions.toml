@@ -91,6 +91,7 @@ lint-tests = { group = "com.android.tools.lint", name = "lint-tests", version.re
 room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
 room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
 room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 
 # Dependencies of the included build-logic
 android-gradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "androidGradlePlugin" }
@@ -103,7 +104,6 @@ room-gradlePlugin = { group = "androidx.room", name = "room-gradle-plugin", vers
 junit = { group = "junit", name = "junit", version.ref = "junitJunit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidxJunit" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCoreVersion" }
-material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
@@ -135,4 +135,3 @@ experiment-android-room = { id = "experiment.android.room" }
 experiment-android-test = { id = "experiment.android.test" }
 experiment-android-hilt = { id = "experiment.android.hilt" }
 experiment-android-jvm-library = { id = "experiment.android.jvm.library" }
-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
